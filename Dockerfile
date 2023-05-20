@@ -13,5 +13,3 @@ EXPOSE 80
 ADD AdminLTE-3.2.0 /var/www/AdminLTE-3.2.0
 ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 CMD /usr/sbin/apache2ctl -D FOREGROUND
-
-
